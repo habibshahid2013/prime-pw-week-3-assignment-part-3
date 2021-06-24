@@ -35,6 +35,18 @@ console.log('5. Adding 25 to supplyChanges.');
 //    - if the value is negative, format the log as 'Removed x parts.'
 
 
+for( let x = supplyChanges; supplychanges++ ){
+  console.log('ordered item', x);
+  if( supplyChanges === '3', '5,', '7','11' ){
+    console.log('Added x parts', x );
+  }
+  else if( supplyChanges === '0'){
+    console.log('No Changes');
+  }
+  else if( supplyChanges === '-6')
+  console.log('Removed x parts', x);
+}
+
 console.log('6. Showing supplyChanges...');
 
 
